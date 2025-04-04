@@ -1,7 +1,6 @@
 # DHd2025-BoA
 
 This repository contains the set of scripts that will take TEI encoded XML files and process them into a PDF.
-Furthermore, it contains the files used to prepare the Book of Abstracts of the DHd 2025 conference. 
 
 The following steps explain how to generate the Book of
 Abstracts. They are based on
@@ -229,5 +228,11 @@ run.sh
 Due to the embedding of the Noto Sans font, I had to add the option
 '-nocs', otherwise I got another error message. Again, if your
 want to use my config, you probably should remove this option.
+
+Creating individual pdf-file for each abstract
+===============================================
+Variante 1: reuse these [scripts](https://github.com/DHd-Verband/DHd2025-separated). This process is easy to use but every pdf file will start with page number 1, so the page numbers will be different to the page numbers in the BoA.
+
+Variante 2: seperate the BoA-pdf file with individual bookmarks (adobe) and name the individual pdf files the same way as their xml version is named. This process is a bit more time consuming but the page numbers will be like in the BoA.
 
 

@@ -1,4 +1,4 @@
-# DHd2024-BoA
+# DHd2025-BoA
 
 This repository contains the set of scripts that will take TEI encoded XML files and process them into a PDF.
 Furthermore, it contains the files used to prepare the Book of Abstracts of the DHd 2025 conference. 
